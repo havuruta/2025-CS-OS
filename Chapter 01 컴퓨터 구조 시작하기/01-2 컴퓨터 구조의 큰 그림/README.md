@@ -387,6 +387,18 @@ CPU가 메모리에 어떤 값을 저장하고 싶을 때는 메모리를 향해
 
 </details>
 
+### Q25. HDD는 SSD 보다 작동 속도가 더 빠르다. (O / X)
+
+<details>
+<summary>정답</summary>
+
+#### X
+SSD가 작동 속도가 더 빠르고 에너지를 덜 사용합니다.
+
+- [참고 자료](https://aws.amazon.com/ko/compare/the-difference-between-ssd-hard-drive/)
+
+</details>
+
 
 ## 📝 사용법  
 ### 이렇게 활용해 보세요! ✨  
