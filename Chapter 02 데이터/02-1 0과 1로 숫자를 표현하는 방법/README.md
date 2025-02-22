@@ -171,7 +171,7 @@ CPU가 한 번에 16비트를 처리할 수 있다면 1워드는 16비트, 한 �
 <details>
 <summary>정답</summary>
 
-플래그
+#### 플래그
 
 </details>
 
