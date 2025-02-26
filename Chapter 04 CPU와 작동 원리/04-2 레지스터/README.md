@@ -80,6 +80,42 @@
 
 </details>
 
+### Q3. 프로그램 카운터(PC)와 명령어 레지스터(IR)는 어떤 역할을 하며, JAVA 프로그램 실행 과정에서 어떻게 활용될 수 있나요?
+
+<details>
+<summary>정답</summary>
+
+- IR(명령어 레지스터): 현재 실행 중인 명령어 자체를 저장합니다.
+- PC(프로그램 카운터): CPU가 실행할 다음 명령어의 메모리 주소를 저장합니다.
+- IR : 오류가 발생한 명령어를 저장
+```java
+public class Main {
+    public static void main(String[] args) {
+        String text = null;
+        text.length(); // NullPointerException 발생!
+    }
+}
+```
+- PC : 다음 명령어의 메모리 주소를 저장장
+```java
+public class PCExample {
+    public static void main(String[] args) {
+        int a = 10;  //다음 명령어 주소를 저장
+        int b = 20;  // 다음 실행할 코드의 메모리 주소 저장
+        int sum = add(a, b); // PC가 add() 메서드의 첫 줄 주소를 저장
+        System.out.println("Result: " + sum); // add() 실행 후, PC가 이 줄의 주소를 저장
+    }
+
+    public static int add(int x, int y) {
+        return x + y;  // 메서드가 끝난 후 돌아올 주소를 저장
+    }
+}
+
+
+```
+- Java에서의 활용: JVM은 바이트코드를 실행할 때 PC 레지스터를 사용하여 실행 흐름을 관리합니다. Java 예외 발생 시, Stack Trace를 통해 실행 위치를 추적 가능합니다.
+
+</details>
 
 ## 📝 사용법  
 ### 이렇게 활용해 보세요! ✨  
