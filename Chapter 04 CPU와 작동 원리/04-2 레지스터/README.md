@@ -208,7 +208,27 @@ public class PCExample {
 
 </details>
 
-### Q7. 다음 중 스택 주소 지정 방식이 실제로 활용되는 경우가 아닌 것은?
+### Q7. 음성인식 프로그램이 있다. 외국인이 와서 말을 하다가 프로그램의 순차적인 흐름이 끊겨겨버렸다.
+### 외국인의 말 중 프로그램의 순차적인 흐름을 끊어 버린 키워드는?
+
+
+ Hey! I'm @$*#(##(#))  "Stop"  #$&#%(*%@)$(@)@*$"Fast"
+ (#*&%(&##))  "JUMP" #%#(*#@)$##(*#(##)) "Again"
+
+<details>
+
+<summary>정답</summary>
+
+- #### 2️⃣ JUMP 
+  - 점프 뒤에 숫자가 있다면 프로그램은 그 숫자에 해당하는 메모리 주소로 점프한다. 
+  그 외의 순차적인 흐름을 끊는 명령어로는 CONDITIONAL JUMP,CALL,RET 등이 있다.
+
+  
+---
+
+</details>
+
+### Q8. 다음 중 스택 주소 지정 방식이 실제로 활용되는 경우가 아닌 것은?
 
 #### 1️⃣ 재귀 호출
 #### 2️⃣ 하드웨어 인터럽트 처리
@@ -248,7 +268,7 @@ public class PCExample {
 
 </details>
 
-### Q8. 순차적인 실행 흐름이 끊기는 경우는?
+### Q9. 순차적인 실행 흐름이 끊기는 경우는?
 
 <details>
 <summary>정답</summary>
@@ -261,7 +281,7 @@ public class PCExample {
 
 </details>
 
-### Q9. x86 CPU에서 IP(Instruction Pointer, 명령어 포인터)는 프로그램 카운터에 해당하는 레지스터가 아니다 \[O, X]
+### Q10. x86 CPU에서 IP(Instruction Pointer, 명령어 포인터)는 프로그램 카운터에 해당하는 레지스터가 아니다 \[O, X]
 
 <details>
 <summary>정답</summary>
@@ -275,7 +295,6 @@ public class PCExample {
 	- 여기 가면 각각의 상용 CPU의 레지스터 구조에 관한 설명이 실려있음
 
 </details>
-
 
 ## 📝 사용법  
 ### 이렇게 활용해 보세요! ✨  
