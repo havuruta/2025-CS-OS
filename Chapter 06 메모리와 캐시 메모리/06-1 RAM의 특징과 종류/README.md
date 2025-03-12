@@ -62,6 +62,20 @@ RAM(램)은 **컴퓨터의 작업 공간** 역할을 하는 메모리입니다.
 
 </details>
 
+### Q3. RAM의 종류는 크게 네가지가 있다. 네가지의 RAM을 쓰시오.
+
+<details>
+<summary>정답</summary>
+
+#### DRAM, SRAM, SDRAM, DDR SDRAM
+
+
+
+
+
+</details>
+
+
 ## 📝 사용법  
 ### 이렇게 활용해 보세요! ✨  
 1. ❓ 확인 문제 아래에 본인이 만든 질문을 추가하세요.  
