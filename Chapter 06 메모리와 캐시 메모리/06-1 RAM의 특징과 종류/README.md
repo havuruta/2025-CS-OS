@@ -143,9 +143,6 @@ RAM(램)은 **컴퓨터의 작업 공간** 역할을 하는 메모리입니다.
 </details>
 
 
-  
----
-
 ### Q6. SDRAM은 00신호와 동기화된 발전된 형태의 DRAM이다.
 
 <details>
@@ -180,6 +177,20 @@ RAM(램)은 **컴퓨터의 작업 공간** 역할을 하는 메모리입니다.
 	- SRAM은 스위치 역할을 하는 2개의 트랜지스터와 데이터를 저장하고 있는 4개의 트랜지스터로 구성
 		- DRAM과 달리 갱신 과정은 필요없으나 더 많은 트랜지스터를 이용하기에 전력 소모가 크고 집적도에서 손해를 봄
 </details>
+
+### Q8. DDR4 SDRAM은 DDR SDRAM에 비해 대역폭이 8배 넓은 RAM이다. [O / X]
+
+<details> 
+<summary>정답</summary>
+
+#### O
+
+**[해설]**
+DDR4 SDRAM의 대역폭은 DDR(Double Data Rate) SDRAM보다 8배, SDRAM(Synchronous Dynamic RAM) 보다 16배 넓다.
+
+</details> 
+
+---
 ## 📝 사용법
 
 ### 이렇게 활용해 보세요! ✨
